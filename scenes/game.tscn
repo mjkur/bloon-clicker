@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://phe40u4errqm"]
+
+[node name="Game" type="Node2D"]
+
+[node name="GameManager" type="Node" parent="."]
+
+[node name="Labels" type="Node" parent="."]
+
+[node name="Buttons" type="Node" parent="."]
+
+[node name="Objects" type="Node" parent="."]
