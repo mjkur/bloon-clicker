@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="Bloon-Clicker"
+run/main_scene="uid://phe40u4errqm"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+BloonClickerMain="*res://assets/music/bloon-clicker-main.tscn"
 
 [rendering]
 
