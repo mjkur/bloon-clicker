@@ -19,6 +19,10 @@ config/icon="res://icon.svg"
 
 BloonClickerMain="*res://assets/music/bloon-clicker-main.tscn"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/gut/plugin.cfg")
+
 [rendering]
 
 environment/defaults/default_clear_color=Color(1, 1, 1, 1)
